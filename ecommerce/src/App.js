@@ -1,12 +1,20 @@
-import { NavBar } from "./components/NavBar";
-const ItemListContainer = (props) => <div> {props.greetings} </div>
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import React from 'react' 
+import { NavBar } from "./components/NavBar.jsx";
+import { ItemListContainer } from "./components/ItemListContainer.jsx";
 function App() {
-  const mensajeBienvenida = "¡Bienvenido al mundo de la numismática!";
+  const tituloDeCategoria = "Monedas";
+  const tituloDeProducto = ""
   return (
     <div>
-      <NavBar />
-      <ItemListContainer greetings={mensajeBienvenida} />
-      <p> Todas las monedas comercializadas en este sitio tienen su código KM correspondiente y no son réplicas</p>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer greeting={tituloDeProducto} />} />
+          <Route path="/category/:id" element={<ItemListContainer greeting={tituloDeCategoria} />} />
+        </Routes>
+        <p> Todas las monedas comercializadas en este sitio tienen su código KM correspondiente y no son réplicas</p>
+      </BrowserRouter>
     </div>
       );
 }

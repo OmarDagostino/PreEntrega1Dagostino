@@ -11,33 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h3
-{
+
+h3 {
   text-align: center;
 }
-ul 
-{
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul li a {
+  margin: 10px 20px 10px 0px;
   text-decoration: none;
-  text-align:center;
 }
-li a
-{
-margin:10px 20px 10px 0px;
-}
-img 
-{
-  height:60px;
+
+img {
+  height: 60px;
   margin-left: 1000px;
 }
-#root div div 
-{
+
+#root div div {
   text-align: center;
 }
-#root div p
-{
 
+#root div p {
   position: fixed;
-  bottom: 0; 
- margin-left: 300px;
-  
+  bottom: 0;
+  margin-left: 300px;
 }

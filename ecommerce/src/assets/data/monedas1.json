@@ -1,0 +1,12 @@
+[ 
+{ "id": 1, "pais": "Francia", "valor": "2 Euro", "anio": 2001, "km": 1289, "imagen": "../assets/imagenes/Francia1289.png"},
+{ "id": 2, "pais": "Italia", "valor": "2 Euro", "anio": 2005, "km": 217, "imagen": "../assets/imagenes/Italia217.png"},
+{ "id": 3, "pais": "España", "valor": "2 Euro", "anio": 2002, "km": 1047, "imagen": "../assets/imagenes/España1047.png"},
+{ "id": 4, "pais": "Irlanda", "valor": "2 Euro", "anio": 2008, "km": 51, "imagen": "../assets/imagenes/Irlanda51.png"},
+{ "id": 5, "pais": "Austria", "valor": "2 Euro", "anio": 2002, "km": 3089, "imagen": "../assets/imagenes/Austria3089.png"},
+{ "id": 6, "pais": "Belgica", "valor": "2 Euro", "anio": 2002, "km": 231, "imagen": "../assets/imagenes/Belgica231.png"},
+{ "id": 7, "pais": "Finlandia", "valor": "2 Euro", "anio": 2001, "km": 105, "imagen": "../assets/imagenes/Finlandia105.png"},
+{ "id": 8, "pais": "Francia", "valor": "1 Euro", "anio": 1999, "km": 1288, "imagen": "../assets/imagenes/Francia1288.png"},
+{ "id": 9, "pais": "Italia", "valor": "1 Euro", "anio": 2002, "km": 216, "imagen": "../assets/imagenes/Italia216.png"},
+{ "id": 10, "pais": "Alemania", "valor": "1 Euro", "anio": 2002, "km": 213, "imagen": "../assets/imagenes/Alemania213.png"}
+]
