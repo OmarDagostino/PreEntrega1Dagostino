@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container"
 import React from "react"
 import {useState, useEffect} from "react"
 import data from "../assets/data/monedas1.json"
+import {ItemList} from "../components/ItemList"
 export const ItemListContainer = props => 
 {
     const [products, setProducts ] = useState ([])
@@ -22,7 +23,8 @@ export const ItemListContainer = props =>
         <Container className="mt-4">
             <h1> {props.greeting} </h1>
             {products.length === 0 ? (<div>cargando...</div>) : 
-            (products.map(moneda => <div key={moneda.id}> {moneda.valor} </div> )) }
+            <ItemList products={products} />
+        }
         </Container>
     )
 }

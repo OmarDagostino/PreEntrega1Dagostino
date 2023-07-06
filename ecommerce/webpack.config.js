@@ -39,6 +39,10 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
+            options: {
+              outputPath: 'images', // Carpeta de salida para las imágenes
+              publicPath: 'images', // Ruta pública para las imágenes
+            },
           },
         ],
       },

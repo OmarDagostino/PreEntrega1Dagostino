@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<ItemListContainer greeting={tituloDeProducto} />} />
           <Route path="/category/:id" element={<ItemListContainer greeting={tituloDeCategoria} />} />
         </Routes>
-        <p> Todas las monedas comercializadas en este sitio tienen su código KM correspondiente y no son réplicas</p>
+        <p id="pie-de-pagina"> Todas las monedas comercializadas en este sitio tienen su código KM correspondiente y no son réplicas</p>
       </BrowserRouter>
     </div>
       );
