@@ -26,9 +26,9 @@ ul li a {
   text-decoration: none;
 }
 
-body div div header img {
+#carrito {
   height: 60px;
-  margin-left: 1000px;
+  margin-left: 10px;
 }
 
 #root div div {
@@ -38,7 +38,7 @@ body div div header img {
 #pie-de-pagina {
   position: fixed;
   bottom: 0;
-  margin-left: 300px;
+  margin-left: 400px;
 }
 .card-img-top
 {

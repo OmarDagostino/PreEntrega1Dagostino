@@ -26,7 +26,7 @@ export const Item = ({moneda}) => {
             <Card.Title> {moneda.valor} </Card.Title>
             <Card.Text> KM : {moneda.km} </Card.Text>
             <Card.Text> Año de acunación : {moneda.anio} </Card.Text>
-            <Link to={`/moneda/${moneda.id}`}>
+            <Link to={`/item/${moneda.id}`}>
                 <Button variant="primary">ver detalle </Button>
             </Link>
         </Card.Body>
