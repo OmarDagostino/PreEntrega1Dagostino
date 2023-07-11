@@ -15,7 +15,10 @@ export const Item = ({moneda}) => {
         // Aquí puedes establecer una imagen de reemplazo en caso de error
       });
   }, [moneda.imagen]);*/
-    return (
+    
+  console.log (moneda.imagen)
+  
+  return (
         <Card
         style={{ width:"18rem"}}
         key={moneda.id}
@@ -27,10 +30,12 @@ export const Item = ({moneda}) => {
             <Card.Text> KM : {moneda.km} </Card.Text>
             <Card.Text> Año de acunación : {moneda.anio} </Card.Text>
             <Link to={`/item/${moneda.id}`}>
-                <Button variant="primary">ver detalle </Button>
+            <Button variant="primary">ver detalle</Button>
             </Link>
         </Card.Body>
         </Card>
     ) 
     }
-   
+    /* <Link to={`/item/${moneda.id}`}>
+                <Button variant="primary">ver detalle </Button>
+            </Link> */

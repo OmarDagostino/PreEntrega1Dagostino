@@ -36,13 +36,18 @@ ul li a {
 }
 
 #pie-de-pagina {
-  position: fixed;
+  position:-webkit-sticky;
   bottom: 0;
-  margin-left: 400px;
+  margin-left: 900px;
 }
 .card-img-top
 {
   height:100px;
   width:100px;
   align-self: center;
+}
+
+#imagen-de-detalle {
+  width:1000px;
+  height: auto;
 }

@@ -20,7 +20,7 @@ export const ItemListContainer = props =>
             )    
         })
         promesa.then(result => {
-            if (id) { setProducts(result.filter(products.category===id))}
+            if (id) { setProducts(result.filter((producto) => producto.category === id))}
             else {
             setProducts(result) }
         })

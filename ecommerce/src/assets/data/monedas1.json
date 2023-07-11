@@ -1,12 +1,11 @@
 [ 
-{ "id":1, "pais": "Francia", "valor": " Francia 2 Euros", "anio": 2001, "km": 1289, "imagen":"../assets/imagenes/Francia1289"},
-{ "id":2, "pais": "Italia", "valor": "Italia 2 Euros", "anio": 2005, "km": 217, "imagen":"../assets/imagenes/Italia217.png"},
-{ "id":3, "pais": "España", "valor": "España 2 Euros", "anio": 2002, "km": 1047, "imagen":"../assets/imagenes/España1047.png"},
-{ "id":4, "pais": "Irlanda", "valor": "Irlanda 2 Euros", "anio": 2008, "km": 51, "imagen":"../assets/imagenes/Irlanda51.png"},
-{ "id":5, "pais": "Austria", "valor": "Austria 2 Euros", "anio": 2002, "km": 3089, "imagen":"../assets/imagenes/Austria3089.png"},
-{ "id":6, "pais": "Belgica", "valor": "Belgica 2 Euros", "anio": 2002, "km": 231, "imagen":"../assets/imagenes/Belgica231.png"},
-{ "id":7, "pais": "Finlandia", "valor": "Finlandia 2 Euros", "anio": 2001, "km": 105, "imagen":"../assets/imagenes/Finlandia105.png"},
-{ "id":8, "pais": "Francia", "valor": "Francia 1 Euro", "anio": 1999, "km": 1288, "imagen":"../assets/imagenes/Francia1288.png"},
-{ "id":9, "pais": "Italia", "valor": "Italia 1 Euro", "anio": 2002, "km": 216, "imagen":"../assets/imagenes/Italia216.png"},
-{ "id":10, "pais": "Alemania", "valor": "Alemania 1 Euro", "anio": 2002, "km": 213, "imagen":"../assets/imagenes/Alemania213.png"}
+{ "id":1, "category": "Francia", "valor": " Francia 2 Euros", "anio": 2001, "km": 1289, "imagen":"https://iili.io/HsNaUtp.png","detalle":"https://iili.io/HsOnvmF.jpg"},
+{ "id":2, "category": "Italia", "valor": "Italia 2 Euros", "anio": 2005, "km": 217, "imagen":"https://iili.io/HsNa4VI.png","detalle":"https://iili.io/HsOAoEg.jpg"},
+{ "id":3, "category": "España", "valor": "España 2 Euros", "anio": 2002, "km": 1047, "imagen":"https://iili.io/HsNavHJ.png","detalle":"https://iili.io/HsOA6ZP.jpg"},
+{ "id":4, "category": "Irlanda", "valor": "Irlanda 2 Euros", "anio": 2008, "km": 51, "imagen":"https://iili.io/HsNaSNR.png","detalle":"https://iili.io/HsOAL6g.jpg"},
+{ "id":5, "category": "Austria", "valor": "Austria 2 Euros", "anio": 2002, "km": 3089, "imagen":"https://iili.io/HsNaeSa.png","detalle":"https://iili.io/HsO7uvj.jpg"},
+{ "id":6, "category": "Belgica", "valor": "Belgica 2 Euros", "anio": 2002, "km": 231, "imagen":"https://iili.io/HsNaOcg.png","detalle":"https://iili.io/HsOA4wB.jpg"},
+{ "id":7, "category": "Finlandia", "valor": "Finlandia 2 Euros", "anio": 2001, "km": 105, "imagen":"https://iili.io/HsNa8Av.png","detalle":"https://iili.io/HsOAin1.jpg"},
+{ "id":9, "category": "Italia", "valor": "Italia 1 Euro", "anio": 2002, "km": 216, "imagen":"https://iili.io/HsNaroN.png","detalle":"https://iili.io/HsOAZFa.jpg"},
+{ "id":10, "category": "Alemania", "valor": "Alemania 1 Euro", "anio": 2002, "km": 213, "imagen":"https://iili.io/HsNaNKF.png","detalle":"https://iili.io/HsO5WL7.jpg"}
 ]
